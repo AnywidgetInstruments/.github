@@ -138,6 +138,46 @@ def social(p: dict) -> str:
     return svg(1280, 640, body, "anywidget instruments")
 
 
+# Link icons, 24 x 24 outlines: documentation, source code, live demo.
+ICONS = {
+    "docs": '<path d="M3 5h5a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H3zM21 5h-5a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h6z"/>',
+    "code": '<path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/>',
+    "try": '<circle cx="12" cy="12" r="9.5"/><path d="M10 8.5v7l6-3.5z"/>',
+}
+ICON_COLOUR = "#3b82f6"  # readable on both GitHub themes
+
+
+def icon(name: str, colour: str = ICON_COLOUR, x: float = 0, y: float = 0, s: float = 1.0) -> str:
+    return (
+        f'<g transform="translate({x} {y}) scale({s})" fill="none" stroke="{colour}" '
+        f'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{ICONS[name]}</g>'
+    )
+
+
+def button(p: dict, name: str, label: str) -> str:
+    """A link button: outlined pill, icon and label, sized to the label."""
+    w = round(70 + len(label) * 8.7)
+    colour = p["bands"][1]
+    body = "\n  ".join(
+        [
+            f'<rect x="1" y="1" width="{w - 2}" height="46" rx="10" fill="{p["face"]}" '
+            f'stroke="{colour}" stroke-width="2"/>',
+            icon(name, colour, 18, 12),
+            f'<text x="52" y="30.5" font-family="{FONT}" font-size="17" font-weight="600" '
+            f'fill="{p["ink"]}">{label}</text>',
+        ]
+    )
+    return svg(w, 48, body, label)
+
+
+BUTTONS = {
+    "try": ("try", "Try in the browser"),
+    "docs-industrial": ("docs", "Industrial docs"),
+    "docs-automotive": ("docs", "Automotive docs"),
+    "docs-grafana": ("docs", "Grafana panel docs"),
+}
+
+
 def main() -> None:
     files = {
         "logo-light.svg": logo(LIGHT),
@@ -149,7 +189,13 @@ def main() -> None:
         "banner-dark.svg": banner(DARK),
         "social-preview.svg": social(DARK),
     }
+    for name in ICONS:
+        files[f"icons/{name}.svg"] = svg(24, 24, icon(name), name)
+    for key, (name, label) in BUTTONS.items():
+        files[f"buttons/{key}-light.svg"] = button(LIGHT, name, label)
+        files[f"buttons/{key}-dark.svg"] = button(DARK, name, label)
     for name, text in files.items():
+        (HERE / name).parent.mkdir(exist_ok=True)
         (HERE / name).write_text(text, encoding="utf-8")
     if shutil.which("rsvg-convert"):
         exports = [("avatar.svg", "avatar.png", 512), ("social-preview.svg", "social-preview.png", 1280)]

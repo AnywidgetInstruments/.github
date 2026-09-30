@@ -24,6 +24,8 @@ and commit the result. Never edit the generated files by hand.
 | `banner-light.svg`, `banner-dark.svg` | organization profile header |
 | `avatar.svg`, `avatar.png` (512 px) | organization and package avatars; square corners, GitHub rounds them itself |
 | `social-preview.svg`, `social-preview.png` (1280 × 640) | repository social preview |
+| `icons/docs.svg`, `icons/code.svg`, `icons/try.svg` | link icons: documentation (book), source code (`</>`), live demo (play) |
+| `buttons/*-light.svg`, `buttons/*-dark.svg` | link buttons of the organization profile |
 
 In a README, pair the light and dark files:
 
@@ -47,6 +49,8 @@ The colours of the widgets' light and dark themes.
 | Band 1, industrial | `#1e3a8a` | `#93c5fd` |
 | Band 2, automotive; accent | `#2563eb` | `#60a5fa` |
 | Band 3, aeronautics; highlight | `#f59e0b` | `#fbbf24` |
+
+Link icons use `#3b82f6`, readable on both light and dark pages.
 
 Red is reserved for alarms and emergency stops in the widgets; keep it out of
 the identity.
