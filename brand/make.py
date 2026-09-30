@@ -174,6 +174,7 @@ BUTTONS = {
     "try": ("try", "Try in the browser"),
     "docs-industrial": ("docs", "Industrial docs"),
     "docs-automotive": ("docs", "Automotive docs"),
+    "docs-aeronautics": ("docs", "Aeronautics docs"),
     "docs-grafana": ("docs", "Grafana panel docs"),
 }
 
