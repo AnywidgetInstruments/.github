@@ -105,7 +105,7 @@ def logo(p: dict) -> str:
 
 
 def avatar(p: dict) -> str:
-    body = f'<rect width="128" height="128" rx="28" fill="{p["face"]}"/>\n  ' + mark(p)
+    body = f'<rect width="128" height="128" fill="{p["face"]}"/>\n  ' + mark(p, 64, 71)
     return svg(128, 128, body, "anywidget instruments")
 
 

@@ -22,7 +22,7 @@ and commit the result. Never edit the generated files by hand.
 | `logo-light.svg`, `logo-dark.svg` | mark and wordmark, for READMEs and documentation headers |
 | `mark-light.svg`, `mark-dark.svg` | the mark alone (favicons, small sizes) |
 | `banner-light.svg`, `banner-dark.svg` | organization profile header |
-| `avatar.svg`, `avatar.png` (512 px) | organization and package avatars |
+| `avatar.svg`, `avatar.png` (512 px) | organization and package avatars; square corners, GitHub rounds them itself |
 | `social-preview.svg`, `social-preview.png` (1280 × 640) | repository social preview |
 
 In a README, pair the light and dark files:
