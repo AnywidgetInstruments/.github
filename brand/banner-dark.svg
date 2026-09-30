@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="anywidget instruments">
+  <title>anywidget instruments</title>
+  <rect width="1280" height="320" fill="#111827"/>
+  <path d="M124.95 225.05A92.0 92.0 0 0 1 121.63 98.44" fill="none" stroke="#93c5fd" stroke-width="22.00"/>
+  <path d="M128.44 91.63A92.0 92.0 0 0 1 251.56 91.63" fill="none" stroke="#60a5fa" stroke-width="22.00"/>
+  <path d="M258.37 98.44A92.0 92.0 0 0 1 255.05 225.05" fill="none" stroke="#fbbf24" stroke-width="22.00"/>
+  <line x1="148.99" y1="201.01" x2="139.09" y2="210.91" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="134.84" y1="177.92" x2="125.33" y2="181.01" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="132.71" y1="150.93" x2="122.84" y2="149.36" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="143.08" y1="125.91" x2="134.99" y2="120.03" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="163.67" y1="108.32" x2="159.13" y2="99.41" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="190.00" y1="102.00" x2="190.00" y2="88.00" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="216.33" y1="108.32" x2="220.87" y2="99.41" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="236.92" y1="125.91" x2="245.01" y2="120.03" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="247.29" y1="150.93" x2="257.16" y2="149.36" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="245.16" y1="177.92" x2="254.67" y2="181.01" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="231.01" y1="201.01" x2="240.91" y2="210.91" stroke="#4b5563" stroke-width="6.00" stroke-linecap="round"/>
+  <line x1="181.55" y1="175.89" x2="225.68" y2="92.90" stroke="#f9fafb" stroke-width="10.00" stroke-linecap="round"/>
+  <circle cx="190" cy="160" r="16.00" fill="#f9fafb"/>
+  <circle cx="190" cy="160" r="6.00" fill="#fbbf24"/>
+  <text x="340" y="150" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="68" letter-spacing="-0.5" fill="#f9fafb"><tspan fill="#9ca3af" font-weight="400">anywidget</tspan><tspan font-weight="700">instruments</tspan></text>
+  <text x="343" y="202" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" fill="#9ca3af">Instrument panels for notebooks, dashboards and the web</text>
+  <text x="344" y="252" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="19" fill="#60a5fa">industrial  ·  automotive  ·  aeronautics</text>
+  <text x="344" y="282" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="19" fill="#9ca3af">Python  ·  Julia  ·  Jupyter  ·  marimo  ·  Grafana</text>
+</svg>

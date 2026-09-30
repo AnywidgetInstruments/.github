@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="anywidget instruments">
+  <title>anywidget instruments</title>
+  <path d="M31.47 96.53A46.0 46.0 0 0 1 29.82 33.22" fill="none" stroke="#1e3a8a" stroke-width="11.00"/>
+  <path d="M33.22 29.82A46.0 46.0 0 0 1 94.78 29.82" fill="none" stroke="#2563eb" stroke-width="11.00"/>
+  <path d="M98.18 33.22A46.0 46.0 0 0 1 96.53 96.53" fill="none" stroke="#f59e0b" stroke-width="11.00"/>
+  <line x1="43.49" y1="84.51" x2="38.54" y2="89.46" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="36.42" y1="72.96" x2="31.66" y2="74.51" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="35.36" y1="59.46" x2="30.42" y2="58.68" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="40.54" y1="46.95" x2="36.49" y2="44.02" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="50.83" y1="38.16" x2="48.56" y2="33.71" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="64.00" y1="35.00" x2="64.00" y2="28.00" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="77.17" y1="38.16" x2="79.44" y2="33.71" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="87.46" y1="46.95" x2="91.51" y2="44.02" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="92.64" y1="59.46" x2="97.58" y2="58.68" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="91.58" y1="72.96" x2="96.34" y2="74.51" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="84.51" y1="84.51" x2="89.46" y2="89.46" stroke="#9ca3af" stroke-width="3.00" stroke-linecap="round"/>
+  <line x1="59.77" y1="71.95" x2="81.84" y2="30.45" stroke="#111827" stroke-width="5.00" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="8.00" fill="#111827"/>
+  <circle cx="64" cy="64" r="3.00" fill="#f59e0b"/>
+</svg>
