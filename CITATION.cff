@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in teaching material, a publication or a
+  product, please cite it as below.
+title: "anywidget instruments: instrument panels for notebooks, dashboards and the web"
+type: software
+authors:
+  - family-names: Celles
+    given-names: Sébastien
+    orcid: "https://orcid.org/0000-0001-9987-4338"
+    affiliation: "Université de Poitiers"
+license: BSD-3-Clause
+repository-code: "https://github.com/AnywidgetInstruments/.github"
+url: "https://anywidgetinstruments.github.io/"
+abstract: >-
+  A family of instrument widgets for notebooks, dashboards and the web,
+  built on anywidget: a core, industrial, automotive and aeronautics
+  widget libraries, and hosts for Python, Julia and Grafana. For
+  visualization, teaching, simulation and supervision.
+keywords:
+  - instrumentation
+  - widgets
+  - notebooks
+  - dashboards
+  - anywidget
+  - education
