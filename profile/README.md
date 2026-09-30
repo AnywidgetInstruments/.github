@@ -9,14 +9,16 @@ processes; speedometers, tachometers, tell-tales and clusters for vehicles;
 flight instruments next. Built on [anywidget](https://anywidget.dev), usable
 from Python, Julia and Grafana.
 
+**Website: <https://anywidgetinstruments.github.io/>**
+
 <p>
-<a href="https://anywidgetinstruments.github.io/anywidget-instruments-industrial/try/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/try-dark.svg"><img alt="Try in the browser" src="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/try-light.svg" height="40"></picture></a>
+<a href="https://anywidgetinstruments.github.io/try/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/try-dark.svg"><img alt="Try in the browser" src="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/try-light.svg" height="40"></picture></a>
 <a href="https://anywidgetinstruments.github.io/anywidget-instruments-industrial/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-industrial-dark.svg"><img alt="Industrial documentation" src="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-industrial-light.svg" height="40"></picture></a>
 <a href="https://anywidgetinstruments.github.io/anywidget-instruments-automotive/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-automotive-dark.svg"><img alt="Automotive documentation" src="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-automotive-light.svg" height="40"></picture></a>
 <a href="https://anywidgetinstruments.github.io/afm-host-panel/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-grafana-dark.svg"><img alt="Grafana panel documentation" src="https://raw.githubusercontent.com/AnywidgetInstruments/.github/main/brand/buttons/docs-grafana-light.svg" height="40"></picture></a>
 </p>
 
-The demos run in the browser (Python through Pyodide): nothing to install.
+The [demos](https://anywidgetinstruments.github.io/try/) run in the browser (Python through Pyodide): nothing to install.
 
 ## One front end, many hosts
 
